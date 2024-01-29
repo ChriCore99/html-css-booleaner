@@ -1,12 +1,42 @@
-div {
+/* margini pagina rimossi */
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* sfondo logo */
+body header div {
     background-color: rgb(33, 117, 228);
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
 
+/* dimensioni logo e spazi */
 div img {
     max-width: 13%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 90px;
+}
+
+/* spaziatura laterale sezioni */
+section {
+    margin-left: 70px;
+}
+
+/* spaziatura immagine 1 */
+main section #immagine-fondatore {
+    margin-top: 20px;
+}
+
+/* spaziatura paragrafi */
+main section #primo-paragrafo {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+main section #secondo-paragrafo {
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
