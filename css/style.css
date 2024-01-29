@@ -40,3 +40,24 @@ main section #secondo-paragrafo {
     margin-top: 0px;
     margin-bottom: 30px;
 }
+
+/* tabella colorata */
+body main section table thead {
+    background-color: rgb(0, 162, 255);
+}
+
+body main section table thead th {
+    color: white;
+}
+
+body main section table thead .intestazione {
+    padding-right: 60px;
+}
+
+body main section table thead #intestazione-lunga {
+    text-align: left;
+}
+
+body main section table tbody .riga-azzurra {
+    background-color: rgb(12, 202, 250);
+}
